@@ -14,6 +14,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
 
+@CrossOrigin
 @RestController
 @RequestMapping({"/oportunidades"})
 public class OportunidadeController
